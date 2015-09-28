@@ -1,0 +1,1 @@
+Repository for exploring custom ApplicationContext per method. See https://jira.spring.io/browse/SPR-12031[SPR-12031]
