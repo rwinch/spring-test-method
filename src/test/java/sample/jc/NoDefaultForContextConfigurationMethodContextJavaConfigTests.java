@@ -14,7 +14,8 @@ import sample.MessageService;
  * How should we prevent
  * DependencyInjectionTestExecutionListener.prepareTestInstance from being
  * executed? One option is to provide our own TestExecutionListener, but there
- * is no easy way to exclude DependencyInjectionTestExecutionListener.
+ * is no easy way to exclude DependencyInjectionTestExecutionListener and still
+ * include the remaining default TestExecutionListener's.
  *
  * @author Rob Winch
  *
