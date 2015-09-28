@@ -12,7 +12,7 @@ import sample.MessageService;
 
 /**
  * How should we prevent
- * DependencyInjectionTestExecutionListener.beforeTestMethod from being
+ * DependencyInjectionTestExecutionListener.prepareTestInstance from being
  * executed? One option is to provide our own TestExecutionListener, but there
  * is no easy way to exclude DependencyInjectionTestExecutionListener.
  *
